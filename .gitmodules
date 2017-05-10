@@ -1,0 +1,3 @@
+[submodule "lyra2re-hash-python"]
+	path = lyra2re-hash-python
+	url = https://github.com/metalicjames/lyra2re-hash-python
