@@ -13,7 +13,7 @@ MIN_TARGET = 0
 MAX_TARGET = 2**256//2**20 - 1
 PERSIST = True
 WORKER_PORT = 9327
-BOOTSTRAP_ADDRS = 'crypto.office-on-the.net'.split(' ')
+BOOTSTRAP_ADDRS = 'crypto.office-on-the.net litecoinp2pool.com'.split(' ')
 ANNOUNCE_CHANNEL = '#p2pool-ltc'
 VERSION_CHECK = lambda v: None if 100400 <= v else 'Litecoin version too old. Upgrade to 0.10.4 or newer!'
 VERSION_WARNING = lambda v: None
